@@ -29,34 +29,34 @@ def main():
     bc1 = {
     "chain": [
         {
-            "hash": "c508f51ca3ed3d7af1842e50d6fd7ea2a2d046a324a00b447a4875545fc71532",
+            "hash": "90217d9c7860ca244b3488d60c88361c0c9a77f4f61ef3e77341bb8ad97ff2c1",
             "index": 1,
-            "merkle_root": "25f854be9f7a4d6952775b88a425e9c876010c5fa56d8c54eaae2bda456a3443",
+            "merkle_root": "51e0996b018ecf9266fea443ba627e1047777907125d139cbb20117d3bc1f38a",
             "nonce": 778,
             "previous_block_hash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
-            "timestamp": 1684738845446,
+            "timestamp": 1685094219612,
             "transactions": [
                 {
                     "amount": 50,
-                    "recipient": "5136ccfbe4bc45628a86caaecc440cfb",
+                    "recipient": "896e6a100f5a417585d311bc19457d53",
                     "sender": "0",
-                    "transaction_id": "9e68000db7ca4492a4fea0f146a354e7"
+                    "transaction_id": "43a4c847cb144ca0ac8aba70b57bfcce"
                 }
             ]
         },
         {
-            "hash": "000077e9e3a6b230d247e15cb3e302db45d867ad54fcce80504206571fe1d04b",
+            "hash": "0000817f4532c673af30f14269830cd46e87b09adf4e3d5e12c08a5dec83d80f",
             "index": 2,
-            "merkle_root": "2b743aebfd39acd9961bb82988a6f2c2e165e76032c0a2a8b5495046602bd778",
-            "nonce": 29126,
-            "previous_block_hash": "c508f51ca3ed3d7af1842e50d6fd7ea2a2d046a324a00b447a4875545fc71532",
-            "timestamp": 1684738855094,
+            "merkle_root": "4ab33c6d3f1ec9fabe52374319d7f2143e7b236bd28ba3697a18dfeca63b1d74",
+            "nonce": 13232,
+            "previous_block_hash": "90217d9c7860ca244b3488d60c88361c0c9a77f4f61ef3e77341bb8ad97ff2c1",
+            "timestamp": 1685094268854,
             "transactions": [
                 {
                     "amount": 6.25,
                     "recipient": "00",
                     "sender": "00",
-                    "transaction_id": "f33d101c0f544d2e825cf039b1b5a3c5"
+                    "transaction_id": "6e28d74b4f814b4f9d186fc9d1fa00dd"
                 },
                 {
                     "amount": 300,
@@ -73,13 +73,12 @@ def main():
     "pending_transactions": [
         {
             "amount": 6.25,
-            "recipient": "6a155c62f4ff4fd386ba0f8a815ac59e",
+            "recipient": "96508369f8564e31b460883a178d62e7",
             "sender": "00",
-            "transaction_id": "52308296225743a8a6f6473b2f8a20a2"
+            "transaction_id": "ca72e8cb2e0d473f89f35c75b7b366c4"
         }
     ]
 }
-
     
 
     print('VALID:', bitcoin.chain_is_valid(bc1['chain']))
