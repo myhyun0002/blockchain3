@@ -143,7 +143,7 @@ def receive_new_block():
             'note': 'New block rejected.',
             'newBlock': new_block
         })
-
+#-------------------------------------------------------------------------
 @app.route('/consensus', methods=['GET'])
 def consensus():
     request_promises = []
